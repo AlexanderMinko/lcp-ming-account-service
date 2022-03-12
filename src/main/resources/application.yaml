@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/test
+
+server:
+  port: 8094
+
+keycloak:
+  auth-server-url: http://localhost:8080/auth
+
+realm:
+  admin:
+    user: admin
+    password: admin
+
+application.web-security-config:
+    custom-unsecured-endpoints: /accounts/**
