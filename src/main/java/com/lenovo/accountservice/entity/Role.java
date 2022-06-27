@@ -13,10 +13,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 public class Role {
 
-    private String id;
-    private String name;
+  private String id;
+  private String name;
 
-    public Role(String name) {
-        this.name = name;
-    }
+  public Role(String name) {
+    this.name = name;
+  }
 }
